@@ -21,6 +21,9 @@
     <div class="container">
         @yield('content')
     </div>
+    <div class="container">
+        @include('main.add_post')
+    </div>
     <footer class="footer">
         <div class="left_header">
             <h1>YourFavBlog</h1>

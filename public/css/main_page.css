@@ -60,3 +60,21 @@ body, html{
     color: #000;
     text-decoration: none;
 }
+
+.input{
+    display: flex;
+    flex-direction: column;
+}
+
+.input_div{
+    display: flex;
+    align-items: center;
+}
+
+.input_btn{
+    margin-left: 20px;
+}
+
+.input_btn input{
+    padding: 10px;
+}
