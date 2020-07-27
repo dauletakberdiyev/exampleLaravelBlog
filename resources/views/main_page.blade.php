@@ -4,50 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>YourFavBlog</title>
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-        }
-        body, html{
-            position: relative;
-            min-height: 100vh;
-            height: 100%;
-        }
-        .header{
-            display: flex;
-            justify-content: space-between;
-            padding: 20px;
-            background-color: #c5c5c5;
-        }
-        .right_header{
-            display: flex;
-            align-items: center;
-        }
-        .header_link{
-            margin-right: 10px;
-        }
-        .container{
-            width: 1200px;
-            margin: 0 auto;
-        }
-        .footer {
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-            height: 200px;
-            display: flex;
-            justify-content: space-between;
-            background-color: #c5c5c5;
-        }
-        .left_header{
-            display: flex;
-            align-items: center;
-        }
-        .post{
-            margin-bottom: 20px;
-        }
-    </style>
+    <link href="css/main_page.css" rel="stylesheet"/>
 </head>
 <body>
     <header class="header">
