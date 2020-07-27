@@ -13,8 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'PostController@posts');
+Route::get('/', 'PostController@posts')->name('posts');
 Route::post('/', 'PostController@store');
+Route::get('/aboutUs','AboutUsController@show')->name('aboutUs');
+Route::get('/addPost','PostController@addPost')->name('addPost');
 
 Auth::routes();
 

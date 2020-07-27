@@ -22,8 +22,11 @@ class PostController extends Controller
         $data = $request->input();
         $post->title = $data['postTitle'];
         $post->body = $data['postText'];
-        //return $data;
         $post->save();
         return redirect('/');
+    }
+
+    public function addPost(){
+        return view('addPost.add_post');
     }
 }
