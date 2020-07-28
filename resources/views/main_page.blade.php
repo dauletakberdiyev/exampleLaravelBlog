@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>YourFavBlog</title>
-    <link href="css/main_page.css" rel="stylesheet"/>
+    <link href="{{URL::asset('css/main_page.css')}}" rel="stylesheet">
 </head>
 <body>
     <header class="header">
@@ -19,6 +19,9 @@
             <div class="header_link"><a href="#">Login</a></div>
         </div>
     </header>
+    @if(Session::has('message'))
+        <p >{{ Session::get('message') }}</p>
+    @endif
     <div class="container">
         @yield('content')
     </div>

@@ -1,7 +1,7 @@
 @extends('main_page')
 
 @section('content')
-    <form method="post" action="{{URL::to('/')}}">
+    <form method="post" action="{{URL::to('/storePost')}}">
         <input type = "hidden" name = "_token" value = "<?php echo csrf_token(); ?>">
         <div class="input_div">
             <div class="input">
