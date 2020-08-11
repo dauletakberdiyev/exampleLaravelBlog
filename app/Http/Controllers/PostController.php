@@ -41,4 +41,20 @@ class PostController extends Controller
         Session::flash('message','Delete successfully.');
         return redirect()->action('PostController@posts');
     }
+
+    public function editPost($id){
+        $post = Post::find($id);
+        return view('editPost.editPost',compact('post'));
+    }
+
+    public function changePost(Request $request){
+        $title = $request->input('postTitle');
+        $body = $request->input('postText');
+        $id = $request->input('id');
+        if($title != '' && $body != ''){
+            $data = array('title' => $title, 'body' => $body);
+            Post::updateData($id,$data);
+        }
+        return redirect()->action('PostController@posts');
+    }
 }
