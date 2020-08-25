@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<movies>
+        <movie>
+            <title>PHP: Появление Парсера</title>
+            <characters>
+                <character>
+                    <name>Ms. Coder</name>
+                    <actor>Onlivia Actora</actor>
+                </character>
+                <character>
+                    <name>Mr. Coder</name>
+                    <actor>El ActOr</actor>
+                </character>
+            </characters>
+            <plot>
+                Таким образом, это язык. Это все равно язык программирования. Или
+                это скриптовый язык? Все раскрывается в этом документальном фильме,
+                похожем на фильм ужасов.
+            </plot>
+            <great-lines>
+                <line>PHP решает все мои проблемы в вебе</line>
+            </great-lines>
+            <rating type="thumbs">7</rating>
+            <rating type="stars">5</rating>
+        </movie>
+    <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="1">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>nwHGhXACEP9lx4Xf8Zt3R/ZIeabp5WlTJz2iqezvEJU=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>JVwJ0I+GjSMl/mCsi38VekKbh8/mp9CgZRUcn5qk+nu6KO6QCD14d5fCrZTH45t/
+TRaPaCNzhKcIoUu3wIF8hgiBVzE0vuHVJmFdnv74qacVDP9khOJj0qF+npog9q3Q
+cvJtnQ77Q77baGk23W5N91YGwPJBYhcR9LLQmU+/rBWfNjq6bxcR5P1o22U3OhXY
+IBYnkK/8tgZnea2JjH+tO64OHfB5gs+F0uLZTM/buJGOy1QdkXOQ5rsqa6U8Hrau
+ft5AE5tiVaD27hN3P29tvga+J70HxvZpvW1IHQWKoVSoRdhXnnc/xUUWt/3SlEV1
+w4YlpCpQhAhhk9BUi37DPg==</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>MIIGfzCCBGegAwIBAgIUHCNzheQmwbDFhTkOcSb055yXZ2kwDQYJKoZIhvcNAQEL
+BQAwUjELMAkGA1UEBhMCS1oxQzBBBgNVBAMMOtKw0JvQotCi0KvSmiDQmtCj05jQ
+m9CQ0J3QlNCr0KDQo9Co0Ksg0J7QoNCi0JDQm9Cr0pogKFJTQSkwHhcNMjAwODA2
+MDgzODM1WhcNMjEwODA2MDgzODM1WjCBtjEoMCYGA1UEAwwf0JDQmtCR0JXQoNCU
+0JjQldCSINCU0JDQo9Cb0JXQojEbMBkGA1UEBAwS0JDQmtCR0JXQoNCU0JjQldCS
+MRgwFgYDVQQFEw9JSU4wMDEwMTk1MDEwMjcxCzAJBgNVBAYTAktaMRswGQYDVQQq
+DBLQnNCj0KDQkNCi0J7QktCY0KcxKTAnBgkqhkiG9w0BCQEWGkRBVUxFVEFLQkVS
+RElZRVZAR01BSUwuQ09NMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA
+sr3HhdP4/ESsqJGwoP2HsPcernQztWPE/FhUwk99mjQbiz378h3nIz/0F8N+O0oH
+G62tYl4nFdOBvGl4dtmTZr/bb7P45PXv2bxyi0kcch+KF7AYzU3Le761bH1xTTmx
+JWipd1rjiFO8bDwbHFIpMQXaSkWWpkI2lZY7Dh6UNiE0zx+fhR0nqVbFbxe9kpMi
+d4/HhgU3JZ2wyt5myQWOH75J7vGxHwsDMaYqtT5+pQrIv4deAaoezwERpuNBwaGb
+F7Aywt+jzQwLKyTeb8z3ZmzyG0mj/ymg4wQ1nuj53m8/CpQ42ROtLjIYaT0/Rbkq
+6prWaBPQRTynfT4HHpbqhwIDAQABo4IB5jCCAeIwDgYDVR0PAQH/BAQDAgbAMCgG
+A1UdJQQhMB8GCCsGAQUFBwMEBggqgw4DAwQBAQYJKoMOAwMEAwIBMA8GA1UdIwQI
+MAaABFtqdBEwHQYDVR0OBBYEFITVjZ5vLbHpT319bAOsWp4tzclbMF4GA1UdIARX
+MFUwUwYHKoMOAwMCAzBIMCEGCCsGAQUFBwIBFhVodHRwOi8vcGtpLmdvdi5rei9j
+cHMwIwYIKwYBBQUHAgIwFwwVaHR0cDovL3BraS5nb3Yua3ovY3BzMFYGA1UdHwRP
+ME0wS6BJoEeGIWh0dHA6Ly9jcmwucGtpLmdvdi5rei9uY2FfcnNhLmNybIYiaHR0
+cDovL2NybDEucGtpLmdvdi5rei9uY2FfcnNhLmNybDBaBgNVHS4EUzBRME+gTaBL
+hiNodHRwOi8vY3JsLnBraS5nb3Yua3ovbmNhX2RfcnNhLmNybIYkaHR0cDovL2Ny
+bDEucGtpLmdvdi5rei9uY2FfZF9yc2EuY3JsMGIGCCsGAQUFBwEBBFYwVDAuBggr
+BgEFBQcwAoYiaHR0cDovL3BraS5nb3Yua3ovY2VydC9uY2FfcnNhLmNlcjAiBggr
+BgEFBQcwAYYWaHR0cDovL29jc3AucGtpLmdvdi5rejANBgkqhkiG9w0BAQsFAAOC
+AgEAlMg6mYShy/K8siiZXdt2qVpYVvstehfZOQI7b+Qcg6RkKUgaoviz8LVGAw4X
+69EQzrb05+iktgvrYBb8kGO+MBupnT2FPYSk2yhK5sofrOps48ty4UWyqgQn1POm
+xLMSoFF0jX4IotrLtqH2xG8vh0OCz9JMPCAXinRLZ47oGS9PIamRoqtlDFwlXHQb
+h695R5xXY4+oFgVgXi4GQOpQZrzxBcSb62Qctt6pRxlgp4o3y6aFqjTmanh1SSuJ
+sC0TbdtYfe0iXeOcI5SWHGtkWs/LHwKFK8/X2I3VH86f6iKkLNp5mzJ/qn8ueBXP
+jnILepCqDr47GKqe9ne6SKTNvN1Xxos7KeP9rxhyM2LegRJFTFw51UaYk8O+x2Wo
+QK5NskwN8LcRyHnkdG2od9Scd8qtyLEKiTzWQpLLWFFoaXXEPlMa8jAwj9KMLvmV
+S7B/Sof5tfUOj8gemnlWNOFyHnkzkIXIKQ3HChb7guIRdOLQDg1waYOBExJq1EGz
+69l7MTtNgZNJdl6sIRtGRgRTGPMqlu/8P3Fj94WOQCIi3eXAnDhtx8N0PPJKndX+
+ymFMocXlW1Uxxv1AYUa3BaIJSqJBcq69D9Y3V6QZL19pzLj1+dfndwOtcqRwRdTc
+k3OOAualBtXAaR0t9Kfd69C0PzyZrrQUTF4Myd/IbwZbEKc=</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature></movies>
